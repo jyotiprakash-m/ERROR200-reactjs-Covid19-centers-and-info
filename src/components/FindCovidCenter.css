@@ -1,0 +1,37 @@
+.covidCenters{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+
+
+.covidCenter{
+    padding: 10px;
+    border: 2px solid grey;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px grey;
+    
+}
+.moreInfo{
+    margin-right: 10px;
+}
+
+.covidCenter_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.hospital_info span{
+    font-weight: 600;
+}
+.search-box{
+    margin: 5px auto;
+}
+.search{
+    /* width: 95%; */
+    display: flex;
+}

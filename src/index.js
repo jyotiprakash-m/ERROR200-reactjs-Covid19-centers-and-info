@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import CovidDashboard from './CovidDashboard';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 // import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <CovidDashboard />
+    <Router>
+        <Navbar></Navbar>
+        <Switch>
+
+            <App />
+        </Switch>
+        
+        <Footer></Footer>
+    </Router> 
   </React.StrictMode>,
   document.getElementById('root')
 );
