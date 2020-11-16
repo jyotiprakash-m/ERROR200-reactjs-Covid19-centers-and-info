@@ -14,8 +14,8 @@ ReactDOM.render(
     <Router>
         <Navbar></Navbar>
         <Switch>
-
-            <App />
+            <Route path="/" exact component={App}/>
+            <Route path="/dashboard" exact component={CovidDashboard}/>
         </Switch>
         
         <Footer></Footer>

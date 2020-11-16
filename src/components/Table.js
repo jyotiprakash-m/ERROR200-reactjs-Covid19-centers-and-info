@@ -4,6 +4,7 @@ import numeral from "numeral";
 
 function Table({countries}) {
     return (
+      <div className="table_container">
         <div className="table">
             {countries.map(({country,cases}) =>(
               <tr>
@@ -13,6 +14,7 @@ function Table({countries}) {
             ))}
             
         </div>
+      </div>
     )
 }
 

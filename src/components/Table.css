@@ -1,9 +1,14 @@
-.table{
-    height: 100vh;
-    margin-top: 20px;
+.table_container{
+    height: 75vh;
     overflow: scroll;
+    overflow-x: hidden;
+}
+
+.table{   
+    margin-top: 20px;   
     height: 400px;
     color: #6a5d5d;
+    position: relative;
 }
 .table tr{
     display: flex;

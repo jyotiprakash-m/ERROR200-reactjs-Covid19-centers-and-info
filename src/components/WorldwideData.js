@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './WorldwideData.css'
+import { Link } from 'react-router-dom';
 
 function WorldwideData() {
     const [countryInfo,setCountryInfo] = useState({});
@@ -20,7 +21,7 @@ function WorldwideData() {
         <h1 class="title-font font-medium text-3xl mb-2 text-gray-900">Case study of India</h1>
         <img src="" alt=""/>
         <div class="leading-relaxed">India is in the second rank all over the world.</div>
-      <button class="float-right inline-flex text-white bg-indigo-500 border-0 mt-3 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Dashboard</button>
+      <Link to="/dashboard"><button class="float-right inline-flex text-white bg-indigo-500 border-0 mt-3 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Dashboard</button></Link>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/3 w-1/2">
         <h2 class="title-font font-medium text-4xl text-gray-900">{countryInfo.cases}</h2>
