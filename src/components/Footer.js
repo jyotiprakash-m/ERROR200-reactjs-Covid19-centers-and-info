@@ -6,7 +6,7 @@ function Footer() {
  <div class="bg-blue-300">
     <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src={logo} alt="Logo" className="logo"/>
+        <a href="/"><img src={logo} alt="Logo" className="logo"/></a>
       </a>
       <p class="text-sm text-black sm:ml-6 sm:mt-0 mt-4">© 2020 All copyrights reserved —
         <a href="" rel="noopener noreferrer" class="text-black-600 ml-1" target="_blank">@Team ERROR200</a>
