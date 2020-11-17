@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function WorldwideData() {
     const [countryInfo,setCountryInfo] = useState({});
 
+    // Fatch India`s data
     useEffect(()=>{
     fetch("https://disease.sh/v3/covid-19/countries/IN")
     .then(response => response.json())

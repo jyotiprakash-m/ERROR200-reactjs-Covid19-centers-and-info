@@ -99,7 +99,7 @@ function AboutUs() {
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={naba}/>
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-medium text-lg text-gray-900">Naba Ratna Patra</h2>
+                  <h2 class="title-font font-medium text-lg text-gray-900">Naba Ratan Patra</h2>
                   <h3 class="text-gray-500 mb-3">Android Developer and Cyber Security Expert</h3>
                   <p class="mb-4">I'm Android developer with cyber security as my dream passion studing in CVRGU(CV Raman Global University)</p>
                   <span class="inline-flex">

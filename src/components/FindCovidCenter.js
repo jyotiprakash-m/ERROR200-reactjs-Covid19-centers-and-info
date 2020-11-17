@@ -9,7 +9,7 @@ const FindCovidCenter = () => {
 
     const [search, setSearch] = useState("");
 
-
+    // Extract Data from database
     useEffect(() => {
         firebaseDb.child('covidCenters').on('value', snapshot => {
             if (snapshot.val() != null) {
@@ -32,8 +32,6 @@ const FindCovidCenter = () => {
         );
       }, [search, covidCenterObjects]);
 
-    //   console.log(Object.values(covidCenterObjects));
-    // console.log(filteredCenter.name)
     
     return (
        <div id="search">

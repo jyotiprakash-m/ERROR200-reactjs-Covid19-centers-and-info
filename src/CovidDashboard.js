@@ -18,6 +18,7 @@ function CovidDashboard() {
   const [mapZoom, setMapZoom] = useState(3);
   const [casesType, setCasesType] = useState("cases");
 
+ // Fetch data from API 
 
   useEffect(()=>{
     fetch("https://disease.sh/v3/covid-19/all")

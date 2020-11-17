@@ -47,6 +47,8 @@ const options = {
   },
 };
 
+// Function used set cordinates
+
 const buildChartData = (data, casesType="cases") => {
   let chartData = [];
   let lastDataPoint;
@@ -63,6 +65,8 @@ const buildChartData = (data, casesType="cases") => {
   return chartData;
 };
 
+// Function used to draw line graph
+
 function LineGraph({ casesType="cases" ,...props }) {
   const [data, setData] = useState({});
 
@@ -75,8 +79,6 @@ function LineGraph({ casesType="cases" ,...props }) {
         .then((data) => {
           let chartData = buildChartData(data, casesType);
           setData(chartData);
-          // console.log(chartData);
-          // buildChart(chartData);
         });
     };
 
