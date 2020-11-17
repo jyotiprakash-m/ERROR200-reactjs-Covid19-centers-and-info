@@ -6,6 +6,7 @@ import CovidDashboard from './CovidDashboard';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
 // import * as serviceWorker from './serviceWorker';
 
 
@@ -15,7 +16,8 @@ ReactDOM.render(
         <Navbar></Navbar>
         <Switch>
             <Route path="/" exact component={App}/>
-            <Route path="/dashboard" exact component={CovidDashboard}/>
+            <Route path="/dashboard" component={CovidDashboard}/>
+            <Route path="/aboutUs" component={AboutUs}/>
         </Switch>
         
         <Footer></Footer>

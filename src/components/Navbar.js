@@ -20,7 +20,7 @@ function Navbar() {
                 </li>
     
                 <li class="border-t md:border-none">
-                <a href="#" class="text-lg block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">About Us</a>
+                <Linkrouter to="/aboutUs"><a class="text-lg block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">About Us</a></Linkrouter>
                 </li>
     
                 <li class="border-t md:border-none">
