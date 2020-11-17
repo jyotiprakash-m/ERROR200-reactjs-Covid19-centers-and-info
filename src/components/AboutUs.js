@@ -11,7 +11,7 @@ function AboutUs() {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest text-4xl text-blue-700">OUR TEAM</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Nothing is impossible under the sky.If you fail in your first attempt then called is as cerson 1.0</p>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-lg">Nothing is impossible under the sky.If you fail in your first attempt then called is as version 1.0</p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2">
