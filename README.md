@@ -3,6 +3,8 @@
 * [General info](#general-info)
 * [Idea Description](#Idea-Description)
 * [Use Case](#Use-Case)
+* [Project Deployed](#Project-Deployed)
+
 
 
 ## Setup
@@ -13,6 +15,9 @@ $ cd ERROR200-reactjs-Covid19-centers-and-info
 $ npm install
 $ npm start
 ```
+## Covid center management github Repository
+* [https://github.com/jyotiprakash-m/ERROR200-reactjs-covid19-center-manager](https://github.com/jyotiprakash-m/ERROR200-reactjs-covid19-center-manager)
+
 ## Technologies
 Project is created with:
 * React JS - Used for front-end designing.
@@ -31,3 +36,7 @@ Project is created with:
 * World Map showing all the regions affected by the pandemic.
 * Covid Center Finder having search option to find all the covid centres in India,with directions and more information for guidance.
 * Chat Bot or voice assistance will be provided for more user interaction.
+
+## Project-Deployed
+
+* [https://covid-centers-info.netlify.app/](https://covid-centers-info.netlify.app/)
